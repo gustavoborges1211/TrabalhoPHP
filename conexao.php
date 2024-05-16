@@ -1,15 +1,15 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "clientes";
+$username = "id22171539_clientes";
+$password = "232712@Gu";
+$dbname = "id22171539_clientes";
 
-// Cria a conexão
+// Cria a conexÃ£o
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Checa a conexão
+// Checa a conexÃ£o
 if ($conn->connect_error) {
-    die("Conexão falhou: " . $conn->connect_error);
+    die("ConexÃ£o falhou: " . $conn->connect_error);
 }
 
 $conn->set_charset("utf8");
